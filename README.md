@@ -41,3 +41,7 @@ join_project_f  = FOREACH join_project GENERATE
 ```
 STORE join_project_f INTO '/user/hirwuser864/bikes_output/output.json' USING JsonStorage();
 ```
+
+**Subset of output**
+>{"station_id":7000,"address":"Fort York  Blvd / Capreol Crt","capacity":31,"num_bikes_available":31,"num_docks_available":0,"num_docks_disabled":0,"percent_bikes":1.0,"lat":43.63983,"lon":-79.39595}
+>{"station_id":7078,"address":"College St / Major St","capacity":11,"num_bikes_available":8,"num_docks_available":2,"num_docks_disabled":0,"percent_bikes":0.72727275,"lat":43.6576,"lon":-79.4032}
