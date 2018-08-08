@@ -1,4 +1,4 @@
-# Merging-and-aggregating-json-datasets-in-pig-to-calculate-number-of-bikes-available-in-Toronto
+# Merging and aggregating json datasets in pig to calculate number of bikes available in Toronto
 Merging two datasets that are stored in json files. Calculating % of bikes available on bike stations in Toronto. Pig code for a reference
 
 Datasets available [here](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#84045f23-7465-0892-8889-7b6f91049b29)
